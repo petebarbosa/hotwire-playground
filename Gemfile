@@ -50,6 +50,9 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+
+  # This is the simplest and probably the most robust way to add live reloading to your Rails app. [https://github.com/railsjazz/rails_live_reload]
+  gem "rails_live_reload"
 end
 
 group :development do
